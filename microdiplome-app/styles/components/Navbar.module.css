@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    font-family: var(--poppins-regular);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 30px 5%;
+max-width: 1500px;
+margin: auto;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li {
+    padding: 0 10px;
+}
+
+.ul li a:hover {
+    color: var(--orange-dark);
+}
+
+.active {
+    color: var(--orange-dark);
+    cursor: default;
+}
